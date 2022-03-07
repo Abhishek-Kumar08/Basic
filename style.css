@@ -74,3 +74,8 @@ hr {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+#num1, #num2{
+    background: #fff;
+    color: #222;
+}

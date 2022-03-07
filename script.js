@@ -3,9 +3,10 @@ function Mul() {
     var n = document.querySelector("#num2").value;
 
     if(m>n){
-        m=m+n;
-        n=m-n;
-        m=m-n;
+        var temp;
+        temp =m;
+        m=n;
+        n=temp;
     }
 
     var messege= "<b>Multiplication Table from " + m + " to " + n + "<b/> <hr>";
