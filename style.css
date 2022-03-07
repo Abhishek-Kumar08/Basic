@@ -16,6 +16,9 @@ body {
     color: wheat;
     text-decoration: underline;
 }
+#desc {
+    color: gold;
+}
 form > input {
     margin-bottom: 10px;
 }
