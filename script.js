@@ -17,7 +17,7 @@ function Mul() {
     
     for (i = m; i <= n; i++) {
         content="content"+(i-m+1);
-        division= '<div class= "col-lg-6 col-md-4 col-sm-3"><section id='+content+'></section></div>';
+        division= '<div class= "col-lg-2 col-md-3 col-sm-4 col-xs-6"><section id='+content+'></section></div>';
         document.querySelector(".row").innerHTML += division;
         messege= "<p class= 'table'>Table of "+i+"</p><br>";
         document.querySelector("#"+content).innerHTML += messege;
