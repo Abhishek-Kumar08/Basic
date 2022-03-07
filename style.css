@@ -9,6 +9,9 @@ body {
     font-size: 1.5em;
     text-align: center;
 }
+#num1, #num2 {
+    color: #fff;
+}
 #heading {
     text-align: center;
     font-weight: bold;
