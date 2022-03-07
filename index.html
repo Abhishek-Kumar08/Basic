@@ -1,10 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Hello</title>
+    <title>Multiplication Table</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/JavaScript" src="script.js"></script>
 </head>
 <body>
-<h1 style="color:green">Hello</h1>
-<h2 style="color:red">Hello</h2>
+    <p id="heading">
+        Multiplication Table
+    </p>
+    <p id="desc">
+        You need to give two numbers as a range and the Multiplication Table of all the numbers lying in the range is printed.
+    </p>
+    <form style="text-align: center;">
+        Enter first number: <input id="num1" type="number"><br>
+        Enter first number: <input id="num2" type="number"><br>
+        <input type="button" value="Submit" onclick="Mul()">
+    </form>
+    <div id="d1"></div>
+    <div class="row"></div>
 </body>
 </html>
