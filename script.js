@@ -1,16 +1,18 @@
 function Mul() {
-    var m = document.querySelector("#num1").value;
-    var n = document.querySelector("#num2").value;
+    var m = parseInt(document.querySelector("#num1").value);
+    var n = parseInt(document.querySelector("#num2").value);
 
     if(m>n){
         var temp;
-        temp =m;
+        temp=m;
         m=n;
         n=temp;
     }
 
     var messege= "<b>Multiplication Table from " + m + " to " + n + "<b/> <hr>";
     document.querySelector("#d1").innerHTML= messege;
+
+    document.querySelector(".row").innerHTML = "";
 
     var i=0,j=0,division;
 
