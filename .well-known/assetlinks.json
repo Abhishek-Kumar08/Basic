@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.example.tradebett",
+    "sha256_cert_fingerprints":
+    ["42:1D:20:A5:4E:B7:B6:45:FB:37:12:73:BC:1C:C4:05:57:B2:DC:CA:45:2B:5F:E9:56:80:C4:21:A3:FD:F7:55"]
+  }
+}]
